@@ -18,6 +18,11 @@
 .logo{
   font-size: 25px;
   font-weight: bold;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+.logo:hover{
+  color: #f9faf8;
 }
 .list-container{
   display: flex;
@@ -25,6 +30,11 @@
 }
 li{
   margin-left: 10px;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+li:hover{
+  color: #f9faf8;
 }
 
 .hero-main-text{
@@ -33,6 +43,7 @@ li{
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 75px;
+  /* justify-content: center; */
 }
 .main-text{
   width: 400px;
@@ -53,4 +64,11 @@ li{
   margin-bottom: 30px;
   padding: 5px;
   border-radius: 5px;
+  cursor: pointer;
+  transition: color, background-color 1s;
+}
+.sign-up:hover{
+  background-color: #f9faf8;
+  color: #3882f6;
+  /* transition: background-color, color 1s; */
 }
